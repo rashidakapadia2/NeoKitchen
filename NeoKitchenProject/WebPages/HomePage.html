@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NeoSOFT Kitchen</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Recipe,recipes,Homepage,Kitchen,NeoKitchen,Cooking,desserts,website,blog,try,subscribe,subsciption,AboutUs,contactus,Feedback,recipeoftheday,Instagram,facebook,Address,email">
+    <meta name="author" content="Rashida Kapadia">
+    <meta name="description" content="Homepage that directs you to various recipes and also gives you our contact information and takes you to a subsciption page incase you 
+    wish to subscribe to our page inorder to receive daily notifications amongst other exciting things.">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <style>
+        h1{
+            color: darkred;
+            text-shadow: 2px 2px darkred;
+        }
+        html{
+            background-color: wheat;
+            border: palevioletred 5px;
+            border-style: double;
+            font-size: 20px;
+        }
+        span{
+            color:green;
+        }
+        var{
+            color: red;
+        }
+        header{
+            background-color:orange;
+            height: 7rem;
+        }
+        #head{
+            float: right;
+            background-color: khaki;
+            border: yellow 3px solid;
+            height: 1em;
+            margin: 20px;
+            padding: 30px;
+            font-style:oblique;
+            box-shadow: 10px 10px 20px khaki;   
+        }
+        pre{
+            padding-left: 100px;
+            color: maroon;
+            font-size: 30px;
+        }
+        details{
+            float: right;
+        }
+        marquee{
+            background-color: lightsalmon;
+            margin: 10px;
+            padding: 10px;
+        }
+        #list{
+            display: list-item;
+        }
+        bdi{
+            font-style: italic;
+            color: white;
+            background-color: black;
+            margin: 30px;
+            padding: 20px;
+        }
+        form{
+            margin: 10px;
+            float: right;
+            height: 780px;
+            width: 200px;
+            background-color: darksalmon;
+            padding: 15px;
+        }
+        .caption{
+            float: left;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        .fig{
+            font-size: 50px;
+            background-color: salmon;
+            text-align: center;
+            border: violet dotted 5px;
+        }
+        audio{
+            float: right;
+            position: static;
+            top: 140px; 
+        }
+        figure{
+            display: inline-flex;
+        }
+        footer{
+            display: block;
+            width: 500px;
+            background-color: tomato;
+            float: left;
+        }
+        .class{
+            display: inline;
+            float: right;
+        }
+        .cls{
+            text-align: center;
+        }
+    </style>
+    
+    <script>
+        alert("Sign-Up for our Newsletter");
+    </script>
+</head>
+<body>
+<h1>Welcome to NeoSOFT Kitchen</h1><hr>
+<audio id="head" src="../Audio/Yummy!.mp3" controls>Yummy!</audio>
+<header>
+    <nav>
+        <b style="float: left;display: inline" id="head">NeoSOFT Cooking</b>
+        
+        
+        <a id="head" href="AboutUs&Subsciption.html" target="_blank">About Us</a>
+        <details>
+            <summary id="head">Recipes</summary><br><br><br><br><br><br><br>
+            <a id="list" target="blank" href="Apple_pie.html">Apple Pie</a><br>
+            <a id="list" target="blank" href="French_Macarons.html">Macarons</a><br>
+            <a id="list" target="blank" href="Italian_Tiramisu.html">Tiramisu</a><br>
+            <a id="list" target="blank" href="Lemon_tart.html">Lemon Tart</a><br>
+            <a id="list" target="blank" href="Polish_Kolackzi.html">Kolaczki</a><br>
+            <a id="list" target="blank" href="Turkish_Baklava.html">Baklava</a><br>
+        </details>
+        <a id="head" href="AboutUs&Subsciption.html" target="_self">Subscription</a>
+        
+    </nav>
+</header><hr>
+<br><br><p>We at NeoSOFT welcome all you valuable and excited readers to our new Cooking Endeavor.<br>Let's quickly hop in to see what's cooking?!</p>
+<pre>Recipe of the Day is...</pre>
+<figure><a href="Polish_Kolackzi.html" target="blank"><figcaption><h2 class="fig">Polish Kolaczki</h2></figcaption><br>
+<img class="fig" src="../Images/Kolaczki.jpg" height="600px" width="950px" alt="No Image Found">
+
+</a></figure>
+<form action="Success.html" novalidate>
+    
+    <bdi>NewsLetter</bdi><br><br><br>
+    <label>Name:<var>*</var></label>
+    <input type="text" id="name" value="abc" onblur="validate0()"><br>
+            <span id="nameerror"></span><br>
+    <label>E-mail:<var>*</var></label>
+    <input type="email" id="email" value="abc@xyz.com" onblur="validate2()"><br>
+            <span id="emailerror"></span><br><br>
+    <input height="300px" width="150px" type="image" src="../Images/Tasty.png" alt="No image found"><br>
+    <label>Which Month do you wish to receive the NewsLetter of?</label>
+    <input type="month" id="month"><br><br>
+    <label>Enter preferred date and time:</label>
+    <input type="datetime-local"><br><br>
+    <button onclick="return validateNewsletter()">DELIVER</button>
+</form>
+<hr>
+
+ <nav><marquee>
+    <figure><a href="Apple_pie.html"  target="blank"><figcaption>Apple Pie :</figcaption></a>
+        <a href="Apple_pie.html"  target="blank"><img src="../Images/ApplepieHomepage.jpg" height="250px" width=350px></a></figure>
+    <figure><a href="Lemon_tart.html" target="blank"><figcaption>Lemon Tart :</figcaption></a>
+        <a href="Lemon_tart.html" target="blank"><img src="../Images/LemonTartHomepage.jpg" height="250px" width=350px></a></figure>
+    <figure><a href="French_Macarons.html" target="blank"><figcaption>Macarons :</figcaption></a>
+        <a href="French_Macarons.html" target="blank"><img src="../Images/MacaronHomepage.jpg" height="250px" width=350px></a></figure>
+    <figure><a href="Polish_Kolackzi.html" target="blank"><figcaption>Polish Kolackzi :</figcaption></a>
+        <a href="Polish_Kolackzi.html" target="blank"><img src="../Images/kolaczkiHomepage.jpg" height="250px" width=350px></a></figure>
+    <figure><a href="Italian_Tiramisu.html" target="blank"><figcaption>Tiramisu :</figcaption></a>
+        <a href="Italian_Tiramisu.html" target="blank"><img src="../Images/TiramisuHomepage.jpg" height="250px" width=350px></a></figure>
+    <figure><a href="Turkish_Baklava.html" target="blank"><figcaption>Turkish Baklava :</figcaption></a>
+        <a href="Turkish_Baklava.html" target="blank"><img src="../Images/BaklavaHomepage.jpg" height="250px" width=350px></a></figure>
+</marquee><article class="caption">Try out other recipes...</article></nav>
+<audio controls src="../Audio/Human-eating-noises.wav">Mmmmm.....</audio><br><br><br>
+
+<hr>
+<footer><h2>Contact Us</h2>
+        <strong>Instagram:</strong>
+        NeoSOFTkitchen
+        <br><strong>Twitter:</strong>
+        https://twitter.com/NeoKitchen<br><br>
+        
+        Phone No:- 9999988880<br>
+        Mail us at:- NeoKitchen@gmail.com<br>
+        <Address>Address: Unit No 501, Sigma IT Park, Plot No R-203,204,
+           <br> Rabale, Navi Mumbai, Maharashtra 400701</Address>      
+</footer>
+<i class="class"><label><h2 class="cls">Feedback:</h2></label>
+    <input class="cls" type="text" style="border: darkslategrey solid 2px;height: 150px; width: 700px"></i>
+    <script src="library/Form.js"></script>
+</body>
+</html>

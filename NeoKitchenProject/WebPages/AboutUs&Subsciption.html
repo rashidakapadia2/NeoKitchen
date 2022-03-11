@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us & Subscription</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Recipe,recipes,AboutUs,about,us,wonderful,Kitchen,NeoKitchen,Cooking,desserts,website,blog,try,subscribe,subsciption,AboutUs,contactus,Feedback,recipeoftheday,Instagram,facebook,Address,email">
+    <meta name="author" content="Rashida Kapadia">
+    <meta name="description" content="AboutUs and subscription directs you to our contact information and takes you to a subsciption page incase you 
+    wish to subscribe to our page inorder to receive daily notifications amongst other exciting things.">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+
+        <style>
+            html{
+                font-size: 20px;
+                background-image: url("../Images/Background.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+
+            h2{
+                display: inline;
+                background-color: gray;
+                border:black dotted 2px;
+                text-shadow:10px black;
+                padding: 10px;
+            }
+            div{
+                background-color: lightgrey;
+                text-align: justify;
+            }
+            form{display: inline-block;
+                background-color: lightslategray;
+                border: 5px solid black;
+                box-shadow: 20px lightslategray;
+                margin: 20px;
+                padding: 20px;
+            }
+            span,var{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <div><h2>About Us</h2>
+        Hello! I am Rashida,the creator of these recipes and a full time employee at NeoSOFT. I love creating blogs and webpages and so I'm sharing this <br><br>work of mine with you guys.
+        <br><br>I hope you love it as much as I do. Here I have shared some of the region specific hit dessert recipes. They are 100% tried and tested. I have given a lot of tips and tricks 
+        along with the most doable and easy recipes. Not everyone can travel and experience various cultures so let us all bring it home with our food. Much love to one and all!
+        Hope you guys have a wonderful day ahead!! 
+        </div>
+        
+        <form action="Success.html" onsubmit="return validateForm()" novalidate>
+            <h2>Subscription</h2><br><br><br>
+            <label>First Name <var>*</var></label>
+            <input type="text" id="name" value="abc" onblur="validate0()"><br><br>
+            <span id="nameerror"></span><br>
+            <label>Last Name <var>*</var></label>
+            <input type="text" id="lastname" value="xyz" onblur="validate1()"><br><br>
+            <span id="lnameerror"></span><br>
+            <label>Email ID <var>*</var></label>
+            <input type="email" id="email" value="abc@xyz.com" onblur="validate2()"><br><br>
+            <span id="emailerror"></span><br>
+            <label>Mobile Number <var>*</var></label>
+            <input type="text" id="mobile" value="1234567890" onblur="validate3()"><br><br>
+            <span id="mobileerror"></span><br>
+            <label>Password <var>*</var></label>
+            <input type="password" id="pass" value="Pass@123" onblur="validate4()"><br><br>
+            <span id="passerror"></span><br>
+            <label>Confirm Password <var>*</var></label>
+            <input type="password" id="confirmpass" value="Pass@123" onblur="validate5()"><br><br>
+            <span id="confpasserror"></span><br>
+            <label>Show Password : <input type="checkbox" id="show" onchange="validate6()"></label><br><br>
+            <label>Date of Birth</label>
+            <input type="date" id="birthdate"><br><br>
+            <label>Gender:</label>
+            <label>Male</label>
+            <input type="radio" class="radio" name="radio">
+            <label>Female</label>
+            <input type="radio" class="radio" name="radio"><br><br>
+            
+            <input type="submit"><br><br>
+            <input type="reset"><br><br>
+        
+        <script src="library/Form.js"></script>
+
+        <script>
+        window.alert("First month subscription is free!");
+        </script>
+            
+    </body>
+</html>
